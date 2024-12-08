@@ -1,0 +1,62 @@
+
+/* css reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* navbar css */
+.navbar-ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    border-bottom: 2px solid black;
+    background-color: azure;
+    height: 42px;
+}
+.navbar-ul li{
+    align-content: center;
+}
+
+
+/* left sidebar css */
+.leftSidebar-ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 31px;
+    width: max-content;
+    gap: 2rem;
+    margin: 0rem auto;
+}
+
+.leftSidebar-container {
+    width: 20rem;
+    border: 2px solid black;
+}
+
+
+/* right side bar  */
+.rightSidebar-conatiner{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin: -70rem 0rem;
+    height: max-content;
+    padding: 2rem;
+    border: 2px solid black;
+}
+
+
+/* home css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: -webkit-fill-available;
+    margin: -70rem 24rem;
+    position: absolute;
+}
